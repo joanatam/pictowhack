@@ -1,0 +1,50 @@
+The MIT License (MIT)
+
+Copyright (c) 2026 joanatm, 2KS Technologies
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Commons Clause
+
+1. Subject to the terms and conditions of this License, each Contributor grants
+   to You a perpetual, worldwide, non-exclusive, no-charge, irrevocable (except as
+   stated in this section) patent license to make, have made, use, offer to sell,
+   sell, import, and otherwise transfer the Work, where such license applies only
+   to those patent claims licensable under this License by a Contributor because
+   the Work is based on an API or other specifications that are subject to open
+   specification commitments of the initial version of the Standard (defined below).
+2. Notwithstanding Section 1, each Contributor retains all rights in and to any
+   Contribution or portion thereof, including without limitation any patent claims,
+   copyrights, trade secrets, trademarks, know-how, and other intellectual property
+   rights thereto, to the extent that such rights are not so sublicensed under this
+   License. You agree not to assert (or cause to be asserted) against any Entity any
+   patent or other proprietary right arising from the use of a Contribution or portion
+   thereof by that Entity with respect to the Work, unless You have entered into a
+   separate agreement with that Entity covering such rights.
+3. For the purposes of this License, "Entity" shall mean an individual or legal entity
+   exercising rights under this License, but shall not include persons who contribute
+   Covered Software in accordance with Section 6(b)(2) for the enhancement (not as
+   Members of a corporate body) and to distribute objects compiled from it at no
+   substantial cost.
+4. Each Entity may grant licenses under this License to any recipient, including not-for-
+   profit organizations and government entities.
+
+jcarroll@agendamate.org
+2ks Technologies
+2026
