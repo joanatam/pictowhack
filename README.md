@@ -1,19 +1,21 @@
-# pictowhack - Remove Pictograms Utility
+# pictowhack - utility to remove pictograms 
 
-Get those annoying little pics OUT of your files and logs statements ... ; )
+_Get those annoying little pics OUT of your files and logs statements_
  
-This directory contains a python utility for removing pictograms (emoji, symbols, and Unicode pictographic characters) from files:
+This is a python script to remove pictograms (emoji, 
+symbols, and Unicode pictographic characters) from text files.
+It assumes you have python3 (v3.6+) installed and command `python3`.
 
 ## Files
 
-- `pictowhack.py` - Python script (recommended)
-- `test-pictograms.txt` - Test file with 135 pictograms
-- `test-pictograms.txt` - Backup used to replace whack'd test file
-- `restore-test.sh` - shell script to restore whack'd test file
+- `pictowhack.py` - Python script
+- `test/test-pictograms.txt` - Test file with 135 pictograms
+- `test/test-pictograms.txt` - Backup used to replace whack'd test file
+- `test/restore-test.sh` - shell script to restore whack'd test file
 
 ## Usage
 
-### Python Script (Recommended)
+### Python Script (Recommended Usage)
 
 ```bash
 # Make executable (first time only)
@@ -59,10 +61,10 @@ python3 pictowhack.py --dry-run "*.txt"
 
 ### Python Script
 - Python 3.6+
-- imports should be part of standard python libs
-- No additional dependencies
+- No additional dependencies (imports are standard python libs)
 
 ## Recommended
-- This script makes irreversible text file changes, so always backup files or preview execute in `--dry-run` mode until satisfied.  
-- Check all the files impacted, to ensure NO unexpected files can be mistakenly targeted by your pathspec !
-- The script only removes, and does not replace pictograms.  If you have files logging a lone pictogram for any reason (e.g. log.success(`✅`)), you should consider adapting this script to replace certain chars.
+- *Backup or --dry-run* - This script makes irreversible text file changes, so always backup files in the pathspec, or preview the results in `--dry-run` mode until satisfied.  
+- *Check your Pathspec* - This is designed for text files, but it will 'pictowhack' any file - including binary files - in the pathspec!  Check all the files impacted, to ensure NO unexpected files are mistakenly targeted by your pathspec !
+- *Check Results* - The script only removes, and does not replace pictograms.  If you have files logging a lone pictogram for any reason (e.g. ```log.success(`✅`)```), you should consider adapting script to replace, rather than remove, certain chars.
+
