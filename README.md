@@ -1,8 +1,8 @@
-# pictowhack - utility to remove pictograms 
+# pictowhack - whack annoying pictograms 
 
-_Get those annoying little pics OUT of your files and logs statements_
+_Removes bot pics from your files and logs statements_
  
-This is a python script to remove pictograms (emoji, 
+This is a simple python script to remove pictograms (emoji, 
 symbols, and Unicode pictographic characters) from text files.
 It assumes you have python3 (v3.6+) installed and command `python3`.
 
