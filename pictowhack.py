@@ -29,7 +29,7 @@ def is_pictogram(char):
 
     This includes:
     - Emoji characters (various Unicode blocks)
-    - Other symbols (So category)
+    - Other symbols (So category except 'box drawings')
     - Modifier symbols (Sk category)
     - Various symbol blocks
     """
@@ -38,6 +38,8 @@ def is_pictogram(char):
         name = unicodedata.name(char, '').lower()
 
         if category in ['So']:  # Other Symbol, Modifier Symbol
+            if len(name) > 11 and 'box drawings' in name:
+                return False
             print(f"  Name {name}, Category {category}: {char}")
             return True
 
