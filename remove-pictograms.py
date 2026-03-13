@@ -6,13 +6,13 @@ This script removes pictograms (emoji, symbols, and other Unicode pictographic c
 from files specified by path patterns.
 
 Usage:
-    python pictowhack.py PATHSPEC [PATHSPEC ...]
-    ./pictowhack.py "*.txt" "docs/*.md"
+    python remove-pictograms.py PATHSPEC [PATHSPEC ...]
+    ./remove-pictograms.py "*.txt" "docs/*.md"
 
 Examples:
-    ./pictowhack.py *.txt
-    ./pictowhack.py docs/*.md src/**/*.js
-    ./pictowhack.py --dry-run *.txt
+    ./remove-pictograms.py *.txt
+    ./remove-pictograms.py docs/*.md src/**/*.js
+    ./remove-pictograms.py --dry-run *.txt
 """
 
 import sys
